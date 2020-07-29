@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DataStructuresAndAlgorithms/.vs/DataStructuresAndAlgorithms/v16
+/DataStructuresAndAlgorithms/DataStructuresAndAlgorithms/Debug
+/DataStructuresAndAlgorithms/Debug

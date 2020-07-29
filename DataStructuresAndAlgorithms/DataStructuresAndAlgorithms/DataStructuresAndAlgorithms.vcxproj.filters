@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Linked Lists">
+      <UniqueIdentifier>{ac8672f3-da57-4013-84ab-0c92d40be9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Recursion &amp; Backtracking">
+      <UniqueIdentifier>{08f4f256-a78a-46a2-b04c-0466ec114f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trees">
+      <UniqueIdentifier>{159db28f-ae82-44ba-8897-37c751eca54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stacks">
+      <UniqueIdentifier>{29eb8efb-c063-42f0-8b70-49e689bce4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queues">
+      <UniqueIdentifier>{00fa03a7-c45d-4c86-9fca-1234eddaca6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trees\Binary Trees">
+      <UniqueIdentifier>{d423a53c-95c4-44cc-b749-b21425014e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trees\Generic Trees">
+      <UniqueIdentifier>{fe752683-1d53-47d8-ab35-513f518d4e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trees\Threaded Binary Trees">
+      <UniqueIdentifier>{90a88272-bf49-48a4-ae46-63bd0481fe63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Heaps">
+      <UniqueIdentifier>{0aef2cc3-7d6a-4cad-8e81-fe83bab762ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sorting">
+      <UniqueIdentifier>{622c86c7-1767-4de3-a994-4923d694fe6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strings">
+      <UniqueIdentifier>{57e1064c-9f3b-4e16-9915-01692cbb2995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dynamic Programming">
+      <UniqueIdentifier>{3be3b6f8-abee-4634-b189-082f9faf5584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RandomProblems">
+      <UniqueIdentifier>{6529fd5c-5225-4fab-a555-d2edc4183c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stacks\Simple Array Stack">
+      <UniqueIdentifier>{1089c367-c444-4d0f-b493-d54369f7fcfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stacks\Dynamic Array Stack">
+      <UniqueIdentifier>{e415db2b-56e6-4e82-80fa-0ec0e114b03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queues\Simple Array Queue">
+      <UniqueIdentifier>{000f8893-3ed6-4746-8a19-708905b5eed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queues\Dynamic Array Queue">
+      <UniqueIdentifier>{2d0bd1c6-4ddf-41a3-9ed1-16a1f037633f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Linked Lists\Single Linked Lists">
+      <UniqueIdentifier>{15820a08-0127-4f76-85ef-19e424890347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Linked Lists\Double Linked Lists">
+      <UniqueIdentifier>{14b8fdd0-1b20-429c-851f-2415e2b11a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Linked Lists\Circular Linked Lists">
+      <UniqueIdentifier>{2e5ddb58-a81c-483c-9476-d1e012a56f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trees\Binary Trees\Binary Search Trees">
+      <UniqueIdentifier>{5900c851-698b-47b1-b4da-5d99416a99d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HashTable">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="R_CheckIfSorted.cpp">
+      <Filter>Source Files\Recursion &amp; Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="R_Factorial.cpp">
+      <Filter>Source Files\Recursion &amp; Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="AllStringsGivenLength.cpp">
+      <Filter>Source Files\Recursion &amp; Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintNumbersBackwards.cpp">
+      <Filter>Source Files\Recursion &amp; Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_DeepestNode.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_DiameterOrWidth.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_FullHalfAndLeafNodes.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Height_OR_Depth.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_LevelOrderTraversal.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_LevelOrderTraversalReverse.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_LowestCommonAncestor.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Mirror.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_NonRecursiveTraversals.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_RecursiveTraversals.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_RootLeafPaths.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_SearchElementRecursive.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_SizeRecursive.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Sum_Max_Min.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_SumOfEachLevel.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_VerticalSum.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="GT_SumOfElements.cpp">
+      <Filter>Source Files\Trees\Generic Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="GT_NumOfChildren.cpp">
+      <Filter>Source Files\Trees\Generic Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="GT_NumOfSiblings.cpp">
+      <Filter>Source Files\Trees\Generic Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="GT_HeightOrDepth.cpp">
+      <Filter>Source Files\Trees\Generic Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="TBT_Creation.cpp">
+      <Filter>Source Files\Trees\Threaded Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_FindElement.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_FindMaximum.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_FindMinimum.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_InsertElement.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_DeleteElement.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_LCA_ShortestPath.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_CheckIfBST.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_KthSmallestElement.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_ClosestElementToKey.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap_InsertAndBuild.cpp">
+      <Filter>Source Files\Heaps</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>Source Files\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>Source Files\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.cpp">
+      <Filter>Source Files\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>Source Files\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>Source Files\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="NaivePatternMatching.cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="BST_Swap2Bad.cpp">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_LongestSubsequence.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_LongestIncreasingSubsequence.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_MaxActivities.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_NodesAtDistanceK.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_LeftOrRight.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="kthSmallInTwoSortedArrays.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxConnectedRegion.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxContiguousOrNonContiguousSum.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="KangarooOnXAxis.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="MinJumpsToReachEnd.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_Max_j_Minus_i.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTrack_AllStrings.cpp">
+      <Filter>Source Files\Recursion &amp; Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_kSumPaths.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SAS_BasicOperations.cpp">
+      <Filter>Source Files\Stacks\Simple Array Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="DAS_BasicOperations.cpp">
+      <Filter>Source Files\Stacks\Dynamic Array Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="SAQ_BasicOperations.cpp">
+      <Filter>Source Files\Queues\Simple Array Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="DAQ_BasicOperations.cpp">
+      <Filter>Source Files\Queues\Dynamic Array Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="BTNS_BasicOperations.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="BTNQ_BasicOperations.cpp">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="CLL_BasicOperations.cpp">
+      <Filter>Source Files\Linked Lists\Circular Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="DLL_BasicOperations.cpp">
+      <Filter>Source Files\Linked Lists\Double Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL_AddingTwoLargeNumbers.cpp">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL_BasicOperations.cpp">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL_CloneWithRandomPointers.cpp">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL_FloydCFA_TortoiseAndHare.cpp">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL_MergingNode.cpp">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL_NthElementFromEnd.cpp">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="SLL_ReverseList.cpp">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter0sToTheLast.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable_BasicOperations.cpp">
+      <Filter>Source Files\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="AllSubsetsOfASet.cpp">
+      <Filter>Source Files\Recursion &amp; Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_Knapsack_0Or1.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseWordsInAString.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="Anagrams.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="DP_MinCostToPaint.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularExpression.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDuplicatesToTheLastInSortedArray.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInRotatedSortedArray.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstMissingPositive.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateMatrix.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="LargestRectangleInHistogram.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="WordLadder.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductOfArrayExceptItself.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxProductOf3Integers.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlappingAreaOf2Rectangles.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductOfMinMax.cpp">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RecursionAndBacktracking.h">
+      <Filter>Source Files\Recursion &amp; Backtracking</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicProgramming.h">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="SAStack.h">
+      <Filter>Source Files\Stacks\Simple Array Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="DAStack.h">
+      <Filter>Source Files\Stacks\Dynamic Array Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="SAQueue.h">
+      <Filter>Source Files\Queues\Simple Array Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DAQueue.h">
+      <Filter>Source Files\Queues\Dynamic Array Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="CLL.h">
+      <Filter>Source Files\Linked Lists\Circular Linked Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL.h">
+      <Filter>Source Files\Linked Lists\Double Linked Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="SLL.h">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomProblems.h">
+      <Filter>Source Files\RandomProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Source Files\Heaps</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorting.h">
+      <Filter>Source Files\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Source Files\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericT.h">
+      <Filter>Source Files\Trees\Generic Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="TBT.h">
+      <Filter>Source Files\Trees\Threaded Binary Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTrees_Problems.h">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BT.h">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BTNQueueAndStack.h">
+      <Filter>Source Files\Trees\Binary Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Source Files\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTrees_Problems.h">
+      <Filter>Source Files\Trees\Binary Trees\Binary Search Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="SLL_Problems.h">
+      <Filter>Source Files\Linked Lists\Single Linked Lists</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

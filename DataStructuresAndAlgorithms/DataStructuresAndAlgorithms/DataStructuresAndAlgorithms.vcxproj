@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11665350-564C-4F4D-839C-D84226BC87E5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DataStructuresAndAlgorithms</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AllStringsGivenLength.cpp" />
+    <ClCompile Include="AllSubsetsOfASet.cpp" />
+    <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BST_CheckIfBST.cpp" />
+    <ClCompile Include="BST_ClosestElementToKey.cpp" />
+    <ClCompile Include="BST_DeleteElement.cpp" />
+    <ClCompile Include="BST_FindElement.cpp" />
+    <ClCompile Include="BST_FindMaximum.cpp" />
+    <ClCompile Include="BST_FindMinimum.cpp" />
+    <ClCompile Include="BST_InsertElement.cpp" />
+    <ClCompile Include="BST_KthSmallestElement.cpp" />
+    <ClCompile Include="BST_LCA_ShortestPath.cpp" />
+    <ClCompile Include="BST_Swap2Bad.cpp" />
+    <ClCompile Include="BTNQ_BasicOperations.cpp" />
+    <ClCompile Include="BTNS_BasicOperations.cpp" />
+    <ClCompile Include="BackTrack_AllStrings.cpp" />
+    <ClCompile Include="BT_DeepestNode.cpp" />
+    <ClCompile Include="BT_DiameterOrWidth.cpp" />
+    <ClCompile Include="BT_FullHalfAndLeafNodes.cpp" />
+    <ClCompile Include="BT_Height_OR_Depth.cpp" />
+    <ClCompile Include="BT_kSumPaths.cpp" />
+    <ClCompile Include="BT_LeftOrRight.cpp" />
+    <ClCompile Include="BT_LevelOrderTraversal.cpp" />
+    <ClCompile Include="BT_LevelOrderTraversalReverse.cpp" />
+    <ClCompile Include="BT_LowestCommonAncestor.cpp" />
+    <ClCompile Include="BT_Mirror.cpp" />
+    <ClCompile Include="BT_NodesAtDistanceK.cpp" />
+    <ClCompile Include="BT_NonRecursiveTraversals.cpp" />
+    <ClCompile Include="BT_RecursiveTraversals.cpp" />
+    <ClCompile Include="BT_RootLeafPaths.cpp" />
+    <ClCompile Include="BT_SearchElementRecursive.cpp" />
+    <ClCompile Include="BT_SizeRecursive.cpp" />
+    <ClCompile Include="BT_SumOfEachLevel.cpp" />
+    <ClCompile Include="BT_Sum_Max_Min.cpp" />
+    <ClCompile Include="BT_VerticalSum.cpp" />
+    <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="CLL_BasicOperations.cpp" />
+    <ClCompile Include="DAQ_BasicOperations.cpp" />
+    <ClCompile Include="DAS_BasicOperations.cpp" />
+    <ClCompile Include="DLL_BasicOperations.cpp" />
+    <ClCompile Include="DP_Knapsack_0Or1.cpp" />
+    <ClCompile Include="DP_LongestIncreasingSubsequence.cpp" />
+    <ClCompile Include="DP_LongestSubsequence.cpp" />
+    <ClCompile Include="DP_MaxActivities.cpp" />
+    <ClCompile Include="DP_Max_j_Minus_i.cpp" />
+    <ClCompile Include="DP_MinCostToPaint.cpp" />
+    <ClCompile Include="Filter0sToTheLast.cpp" />
+    <ClCompile Include="FilterDuplicatesToTheLastInSortedArray.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="GT_HeightOrDepth.cpp" />
+    <ClCompile Include="GT_NumOfChildren.cpp" />
+    <ClCompile Include="GT_NumOfSiblings.cpp" />
+    <ClCompile Include="GT_SumOfElements.cpp" />
+    <ClCompile Include="HashTable_BasicOperations.cpp" />
+    <ClCompile Include="LargestRectangleInHistogram.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaxConnectedRegion.cpp" />
+    <ClCompile Include="MaxContiguousOrNonContiguousSum.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
+    <ClCompile Include="Heap_InsertAndBuild.cpp" />
+    <ClCompile Include="InsertionSort.cpp" />
+    <ClCompile Include="KangarooOnXAxis.cpp" />
+    <ClCompile Include="KMP.cpp" />
+    <ClCompile Include="kthSmallInTwoSortedArrays.cpp" />
+    <ClCompile Include="MaxProductOf3Integers.cpp" />
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
+    <ClCompile Include="NaivePatternMatching.cpp" />
+    <ClCompile Include="OverlappingAreaOf2Rectangles.cpp" />
+    <ClCompile Include="PrintNumbersBackwards.cpp" />
+    <ClCompile Include="ProductOfArrayExceptItself.cpp" />
+    <ClCompile Include="ProductOfMinMax.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="RegularExpression.cpp" />
+    <ClCompile Include="ReverseWordsInAString.cpp" />
+    <ClCompile Include="RotateMatrix.cpp" />
+    <ClCompile Include="R_CheckIfSorted.cpp" />
+    <ClCompile Include="R_Factorial.cpp" />
+    <ClCompile Include="SAQ_BasicOperations.cpp" />
+    <ClCompile Include="SAS_BasicOperations.cpp" />
+    <ClCompile Include="SearchInRotatedSortedArray.cpp" />
+    <ClCompile Include="SelectionSort.cpp" />
+    <ClCompile Include="SLL_AddingTwoLargeNumbers.cpp" />
+    <ClCompile Include="SLL_BasicOperations.cpp" />
+    <ClCompile Include="SLL_CloneWithRandomPointers.cpp" />
+    <ClCompile Include="SLL_FloydCFA_TortoiseAndHare.cpp" />
+    <ClCompile Include="SLL_MergingNode.cpp" />
+    <ClCompile Include="SLL_NthElementFromEnd.cpp" />
+    <ClCompile Include="SLL_ReverseList.cpp" />
+    <ClCompile Include="TBT_Creation.cpp" />
+    <ClCompile Include="MinJumpsToReachEnd.cpp" />
+    <ClCompile Include="WordLadder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySearchTrees_Problems.h" />
+    <ClInclude Include="BinaryTrees_Problems.h" />
+    <ClInclude Include="BT.h" />
+    <ClInclude Include="BTNQueueAndStack.h" />
+    <ClInclude Include="CLL.h" />
+    <ClInclude Include="DAQueue.h" />
+    <ClInclude Include="DAStack.h" />
+    <ClInclude Include="DLL.h" />
+    <ClInclude Include="DynamicProgramming.h" />
+    <ClInclude Include="GenericT.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="Heap.h" />
+    <ClInclude Include="RandomProblems.h" />
+    <ClInclude Include="RecursionAndBacktracking.h" />
+    <ClInclude Include="SAQueue.h" />
+    <ClInclude Include="SAStack.h" />
+    <ClInclude Include="SLL.h" />
+    <ClInclude Include="SLL_Problems.h" />
+    <ClInclude Include="Sorting.h" />
+    <ClInclude Include="Strings.h" />
+    <ClInclude Include="TBT.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
